@@ -115,10 +115,10 @@ Abaixo, temos um exemplo de código para o caso 3 descrito acima:
 
 ```Javascript
 const flipColors = (node) =>{
-	node.color = "red"; // lembrando, esse atributo diz respeito à ligação com o nó pai.
+    node.color = "red"; // lembrando, esse atributo diz respeito à ligação com o nó pai.
 
-	// indica que seus filhos estão ligados através de ligação negra.
-	node.right.color = "black";
+    // indica que seus filhos estão ligados através de ligação negra.
+    node.right.color = "black";
     node.left.color = "black";
 }
 ```
